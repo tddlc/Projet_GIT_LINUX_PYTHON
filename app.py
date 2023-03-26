@@ -74,4 +74,4 @@ if __name__ == '__main__':
             n_intervals=0
         )
     ])
-    app.run_server(debug=True)
+    app.run_server(debug=True,host="172.31.60.11",port=8050)
